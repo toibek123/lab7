@@ -1,0 +1,56 @@
+
+ <!DOCTYPE html> 
+ <html> 
+ <head> 
+ 	<title>js 7-g</title> 
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.js"></script> 
+ 
+ 
+ <style type="text/css"> 
+   
+ .zebra{ 
+ 	background-color: #ffff00; 
+ } 
+ </style> 
+ 
+ 
+ <script> 
+ $(document).ready(function(){ 
+     $("tr:even").addClass("zebra"); 
+ }); 
+ </script> 
+
+ 
+ </head> 
+ <body> 
+ 
+ 
+ 
+ 
+ <table border="2" bordercolor="	#ff0000"  width="400px" > 
+   <tr> 
+     <th>Student Aty</th> 
+     <th>Marka sany</th> 
+   </tr> 
+   <tr> 
+     <td>Gulaiym</td> 
+     <td>0507.kz</td> 
+   </tr> 
+   <tr> 
+     <td>Asel</td> 
+     <td>1616.02</td> 
+   </tr> 
+   <tr> 
+    <td>Inabat</td> 
+    <td>1313.wk</td> 
+   </tr> 
+   <tr> 
+     <td>Muhakagali</td> 
+   <td>7777.ru</td> 
+   </tr> 
+    
+ </table> 
+ 
+ 
+ </body> 
+</html> 

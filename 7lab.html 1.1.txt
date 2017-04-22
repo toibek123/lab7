@@ -1,0 +1,8 @@
+<!DOCTYPE html> 
+<html lang="kz-Kz"> 
+<head> 
+ <title>js 7-g</title>	 
+ </head>  <body> 
+ <input id="accept" name="accept" type="checkbox" value="y"/> Men kabylbaimyn<br>   
+ <input id="Submit" id="submitbtn" type="submit" value="Usynuga" />  </body> 
+ </html> 

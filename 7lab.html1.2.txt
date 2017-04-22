@@ -1,0 +1,18 @@
+<html> 
+  <head> 
+  <title>js 7-g</title> 
+ <link rel="stylesheet" type="text/css" href="style.css"> 
+ <script type="text/javascript" src="script.js"></script> 
+ <script src="jquery.js"></script> 
+</head> 
+ <body> 
+   <p> 7--labadagy <span class="blink"> Zhattygylardy   </span>   jane  Sheshimin  koru </p> 
+ <script> 
+	function blink_text(){ 
+		$('.blink').fadeOut(400); 
+		$('.blink').fadeIn(400); 
+ 	} 
+	setInterval(blink_text,800); 
+ </script> 
+ </body> 
+ </html> 

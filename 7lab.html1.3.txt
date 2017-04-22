@@ -1,0 +1,18 @@
+<!DOCTYPE html> 
+ <html lang="kz-Kz"> 
+  <head> 
+  <title>js 7-g</title> 
+ </head> 
+ <body> 
+   <div>  <a class="printPage" href="#"> PRINT </a> 
+  </div> 
+ <script> 
+		$('a.printPage').click(funtion(){ 
+   			window.PRINT(); 
+ 			return false; 
+  
+ 		}); 
+ 		 
+ </script> 
+ </body> 
+ </html> 
